@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Optional;
 
 public interface ProjectService {
-    Optional<List<ProjectSummaryResponse>> getUserProjects(Long userId);
+    List<ProjectSummaryResponse> getUserProjects(Long userId);
 
     ProjectResponse getUserProjectById(Long id, Long userId);
 

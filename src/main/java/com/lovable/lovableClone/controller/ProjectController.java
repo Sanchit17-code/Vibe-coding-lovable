@@ -19,9 +19,9 @@ public class ProjectController {
     private final ProjectService projectService;
 
     @GetMapping
-    public ResponseEntity<List<ProjectSummaryResponse>> getMyProject(){
+    public ResponseEntity<List<ProjectSummaryResponse>> getMyProjects(){
         Long userId = 1L;
-        return ResponseEntity.of(projectService.getUserProjects(userId));
+        return ResponseEntity.ok(projectService.getUserProjects(userId));
     }
 
     @GetMapping("/{id}")
