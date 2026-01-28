@@ -25,6 +25,9 @@ jwt:
   secret-key : uqefuiew873274983yr9287gf8273293usiwejhfoiregniwbeyewyydwg98d298347234732bhjduwdcdjshc
 
 stripe:
-  secret: sk_test_51StlckSAuIds6r3FnWxsY0UMOcuU5PXWVwR8bwy29u06iiR728Qh5xdw05OTegpx3f1EpD8HZWFLgUL4oDBirz9j00CyT9xdxR
-
+  api:
+    secret: sk_test_51StlckSAuIds6r3FnWxsY0UMOcuU5PXWVwR8bwy29u06iiR728Qh5xdw05OTegpx3f1EpD8HZWFLgUL4oDBirz9j00CyT9xdxR
+  webhook:
+    secret: whsec_f39e12e405e46e64210a9b207e0589a5dd73bedf43c50ae8c573f1468c4dedac
 client.url: http://localhost:8082  #for after payment rediection (usually has to be frontend url)
+

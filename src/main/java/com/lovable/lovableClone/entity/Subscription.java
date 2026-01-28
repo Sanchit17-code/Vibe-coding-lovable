@@ -20,7 +20,7 @@ public class Subscription {
     Plan plan;
 
     SubscriptionStatus status;
-    String stripeCustomerId;
+
     String stripeSubscriptionId;
 
     Instant currentPeriodStart;
