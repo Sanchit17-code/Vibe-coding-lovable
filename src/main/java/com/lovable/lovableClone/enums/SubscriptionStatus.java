@@ -1,5 +1,5 @@
 package com.lovable.lovableClone.enums;
 
 public enum SubscriptionStatus {
-    ACTIVE, TRAILING, CANCELLED, PAST_DUE, TRIALING, CANCELED, INCOMPLETE
+    ACTIVE, CANCELLED, PAST_DUE, TRIALING, CANCELED, INCOMPLETE
 }
